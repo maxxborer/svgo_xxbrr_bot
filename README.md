@@ -1,32 +1,29 @@
-# Svgo_bot
-![png](https://github.com/maksugr/svgo_bot/blob/master/svgo_bot.png)
+# SVGO Telegram bot
 
-## Overview
+<img src="svgo.webp" alt="svgo logo" width="200" height="200">
 
-Telegram bot for SVGO (https://github.com/svg/svgo) - svg minification. Send to it svg in file or markup.
-
-## Requirements
-
-node.js >= 4.5.0
+Telegram bot for [SVGO](https://github.com/svg/svgo) (minification). Send to it svg in file or markup.
 
 ## Install
 
-``` bash
-# git clone git@github.com:maksugr/svgo_bot.git svgo_bot
-# cd svgo_bot
-# npm i
+1. Create file `.env` that exports your bot token
+
+```bash
+TOKEN=YOUR_TOKEN
 ```
 
-Then create file `token.js` that exports your token
-``` javascript
-module.exports = 'YOUR_TOKEN';
+2. Install dependencies
+
+```bash
+pnpm install
 ```
 
-After all preparation open your Terminal App and start work with it!
-``` bash
-# npm start
+3. Start bot
+
+```bash
+pnpm start
 ```
 
 ## Relative link
 
-http://telegram.me/svgo_bot
+[telegram.me/svgo_xxbrr_bot](https://telegram.me/svgo_xxbrr_bot)
